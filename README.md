@@ -142,7 +142,12 @@ Run the filter once before configuring Jellyfin:
 
 Successful output reports the number of selected XMLTV IDs, approved and
 unresolved tuner channels, schedule shifts, and the final channel/program
-counts. Confirm that the generated file exists and is readable:
+counts. With the current Bay Area mappings, the generated XMLTV file is
+typically around 12 MB, compared with roughly 900 MB for the uncompressed
+original U.S. XMLTV feed. Exact sizes vary as mappings and upstream guide data
+change.
+
+Confirm that the generated file exists and is readable:
 
 ```bash
 ls -lh /mnt/data/apps/jellyfin/config/epg/epg-candidates.xml
