@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Download a large XMLTV feed and retain only IDs selected by one mapping CSV."""
+"""Download a large XMLTV feed and retain IDs selected by one mapping CSV."""
 
 from __future__ import annotations
 
@@ -17,7 +17,16 @@ from pathlib import Path
 
 DEFAULT_SOURCE = "https://iptv-epg.org/files/epg-us.xml.gz"
 APPROVED_VALUES = {"yes", "y", "true", "1", "x"}
-REQUIRED_COLUMNS = {"GuideNumber", "EpgId", "Approved", "TimeShiftHours"}
+MAPPING_COLUMNS = (
+    "GuideNumber",
+    "GuideName",
+    "EpgId",
+    "EpgName",
+    "Approved",
+    "TimeShiftHours",
+    "Notes",
+)
+REQUIRED_COLUMNS = set(MAPPING_COLUMNS)
 
 
 def read_mappings(csv_path: Path) -> tuple[set[str], int, int, dict[str, float]]:
@@ -206,7 +215,7 @@ def filter_feed(
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Filter a large gzipped XMLTV feed using one consolidated mapping CSV."
+        description="Filter a large gzipped XMLTV feed using one seven-column mapping CSV."
     )
     parser.add_argument("--mappings", required=True, type=Path)
     parser.add_argument("--output", required=True, type=Path)
