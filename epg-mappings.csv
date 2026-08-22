@@ -1,0 +1,69 @@
+GuideNumber,GuideName,Rank,Score,EpgId,EpgName,EpgNames,Approved,TimeShiftHours,Status,Notes
+1.1,CATCHY,1,100,CatchyKICUDT4.us,US - Catchy Comedy KICU-DT4 San Jose CA,US - Catchy Comedy KICU-DT4 San Jose CA,YES,0,Known good,KAXT-LD2 carrying Catchy; uses the KICU Catchy Comedy schedule
+2.1,KTVU-HD,1,100,FOXKTVU.us,US - FOX KTVU San Francisco Oakland CA,US - FOX KTVU San Francisco Oakland CA,YES,0,Known good,Local affiliate
+2.2,FOXWX,1,100,FOXWeather.us,US - FOX Weather,US - FOX Weather,YES,0,Known good,National network
+2.3,MOVIES!,1,100,Movies!.us,US - MOVIES!,US - MOVIES!,YES,0,Known good,National network
+2.4,BUZZR,1,100,BUZZR.us,US - BUZZR,US - BUZZR,YES,0,Known good,National network
+4.1,KRON-TV,1,100,CWKRON.us,US - CW KRON San Francisco CA,US - CW KRON San Francisco CA,YES,0,Known good,Local affiliate
+4.2,Antenna,1,100,AntennaTV.us,US - ANTENNA TV,US - ANTENNA TV,YES,0,Known good,National network
+4.3,Rewind,1,100,RewindTV.us,US - Rewind TV,US - Rewind TV,YES,0,Known good,National network
+4.4,Roar,1,100,RoarPacific.us,US - Roar West,US - Roar West,YES,0,Known good,West feed
+4.5,DEFY,1,100,AandECrime360.us,US - A&E Crime 360,US - A&E Crime 360,YES,0,Known good,Schedule matches the local DEFY broadcast's
+5.1,KPIX-TV,1,100,CBSKPIX.us,US - CBS KPIX San Francisco CA,US - CBS KPIX San Francisco CA,YES,0,Known good,Local affiliate
+5.2,StartTV,1,100,StartTVKITVDT4.us,US - StartTV KITV-DT4 Honolulu HI,US - StartTV KITV-DT4 Honolulu HI,YES,0,Known good,Matches the Bay Area broadcast
+5.3,Dabl,1,100,Dabl.us,US - DABL,US - DABL,YES,3,Known good,National Dabl feed shifted three hours later to match the Bay Area broadcast
+5.4,365BLK,1,100,365BlkKGMBDT3.us,US - 365BLK KGMBDT3,US - 365BLK KGMBDT3,YES,0,Known good,Verified schedule
+5.5,COMET,1,100,Comet.us,US - COMET,US - COMET,YES,3,Known good,National COMET feed shifted three hours later to match Bay Area broadcast
+7.1,KGO-HD,1,100,ABCKGO.us,US - ABC KGO San Francisco CA,US - ABC KGO San Francisco CA,YES,0,Known good,Local affiliate
+7.2,LOCLish,1,100,ABCLocalISH.us,US - ABC LocalISH,US - ABC LocalISH,YES,3,Known good,National Localish feed shifted three hours later
+7.3,Charge!,1,100,Charge!.us,US - Charge!,US - Charge!,YES,3,Known good,National Charge! feed shifted three hours later to match Bay Area broadcast
+9.1,KQED-HD,1,100,PBSKQED.us,US - PBS KQED San Francisco CA,US - PBS KQED San Francisco CA,YES,0,Known good,Local affiliate
+9.2,KQED+HD,1,100,PBSPlusKQEDDT2.us,US - PBS Plus KQED-DT2 San Francisco San Jose CA,US - PBS Plus KQED-DT2 San Francisco San Jose CA,YES,0,Known good,Local affiliate
+9.3,WORLD,1,100,WorldWXXIDT2.us,US - World PBS WXXI-DT2 Rochester NY,US - World PBS WXXI-DT2 Rochester NY,YES,3,Known good,WORLD schedule shifted three hours later for KQED World Pacific timing
+9.4,KIDS,1,100,KidsWXXIDT4.us,US - Kids PBS WXXI-DT4 Rochester NY,US - Kids PBS WXXI-DT4 Rochester NY,YES,3,Known good,PBS Kids schedule shifted three hours later for KQED Kids
+11.1,KNTV HD,1,100,NBCKNTV.us,US - NBC KNTV San Francisco Oakland San Jose CA,US - NBC KNTV San Francisco Oakland San Jose CA,YES,0,Known good,Local affiliate
+11.2,COZI-TV,1,100,CoziTVWest.us,US - COZITV WEST,US - COZITV WEST,YES,0,Known good,COZI West feed matching live Bay Area broadcast
+11.3,KNTV-HD,1,100,NBCKNTV.us,US - NBC KNTV San Francisco Oakland San Jose CA,US - NBC KNTV San Francisco Oakland San Jose CA,YES,0,Known good,Same guide as 11.1
+11.4,COZI-TV,1,100,CoziTVWest.us,US - COZITV WEST,US - COZITV WEST,YES,0,Known good,COZI West feed matching live Bay Area broadcast
+11.5,CRIMES,1,100,TrueCRMZ.us,US - True CRMZ,US - True CRMZ,YES,0,Known good,True CRMZ feed
+14.1,KDTV-DT,1,100,UnivisionKDTV.us,US - Univision KDTV San Francisco Oakland Vallejo CA,US - Univision KDTV San Francisco Oakland Vallejo CA,YES,0,Known good,Local affiliate
+14.3,GREAT,1,100,GreatEntertainmentTelevision.us,US - Great Entertainment Television,US - Great Entertainment Television,YES,0,Known good,Confirmed by logo
+14.4,MYSTERY,1,100,IonMystery.us,US - Ion Mystery,US - Ion Mystery,YES,0,Known good,Confirmed as Ion Mystery
+36.1,KICU-HD,1,100,FOXKICU.us,US - FOX KICU KTVU Plus San Francisco Oakland San Jose CA,US - FOX KICU KTVU Plus San Francisco Oakland San Jose CA,YES,0,Known good,Local KICU/KTVU Plus affiliate
+36.2,KBSA,1,100,KBSAmerica.us,US - KBS America,US - KBS America,YES,0,Known good,KBS America feed
+36.3,Nosey,1,100,Nosey.us,US - Nosey,US - Nosey,YES,0,Known good,National Nosey feed
+36.4,CATCHY,1,100,CatchyKICUDT4.us,US - Catchy Comedy KICU-DT4 San Jose CA,US - Catchy Comedy KICU-DT4 San Jose CA,YES,0,Known good,Local KICU subchannel
+44.1,KPYX-DT,1,100,KPIX+KPYX.us,US - KPIX+ KPYX San Francisco CA,US - KPIX+ KPYX San Francisco CA,YES,0,Known good,Local KPYX KPIX+ affiliate
+44.2,Nest,1,100,TheNest.us,US - The Nest,US - The Nest,YES,0,Known good,National The Nest feed
+44.3,MeTV,3,88,MeTVWest.us,US - ME TV West,US - ME TV West,YES,0,Known good,Confirmed MeTV West feed
+44.4,Confess,1,100,ConfessByNosey.us,US - Confess by Nosey,US - Confess by Nosey,YES,0,Known good,Confess by Nosey feed
+48.3,KSTS HD,1,100,TelemundoKSTS.us,US - Telemundo KSTS San Francisco Oakland San Jose CA,US - Telemundo KSTS San Francisco Oakland San Jose CA,YES,0,Known good,Local Telemundo affiliate
+48.4,TeleX,1,100,TeleXitos.us,US - TeleXitos,US - TeleXitos,YES,0,Known good,TeleXitos network feed
+48.5,True CRMZ,1,100,TrueCRMZ.us,US - True CRMZ,US - True CRMZ,YES,0,Known good,True CRMZ feed
+48.6,Oxygen True Crime,1,100,OxygenTrueCrime.us,US - Oxygen True Crime,US - Oxygen True Crime,YES,0,Known good,National Oxygen True Crime feed
+52.1,KDTS-LD,1,100,DAYSTAR.us,US - Daystar,US - Daystar,YES,0,Known good,Schedule verified
+54.1,KQED+HD,2,82,PBSPlusKQEDDT2.us,US - PBS Plus KQED-DT2 San Francisco San Jose CA,US - PBS Plus KQED-DT2 San Francisco San Jose CA,YES,0,Known good,Duplicate-tower KQED Plus mapping
+54.2,KQED-HD,1,82,PBSKQED.us,US - PBS KQED San Francisco CA,US - PBS KQED San Francisco CA,YES,0,Known good,Duplicate-tower KQED mapping
+60.3,PJKNHK,1,100,NHKWorld.us,US - NHK World,US - NHK World,YES,0,Known good,Schedule matches the local NHK World broadcast
+60.4,PJKDW,1,100,DWEnglish.us,US - DW English,US - DW English,YES,0,Known good,Schedule matches the local Deutsche Welle broadcast
+65.1,ION Television,1,100,IONTVPacific.us,US - ION TV West,US - ION TV West,YES,0,Known good,Pacific ION Television feed
+65.2,Bounce,1,100,BounceTV.us,US - BOUNCE TV,US - BOUNCE TV,YES,0,Known good,National Bounce TV feed
+65.3,Court TV,1,100,CourtTV.us,US - Court TV,US - Court TV,YES,0,Known good,National Court TV feed
+65.4,ION Plus,1,100,IONPlus.us,US - IONPlus,US - IONPlus,YES,0,Known good,National ION Plus feed
+65.5,Laff,1,100,Laff.us,US - LAFF TV,US - LAFF TV,YES,0,Known good,National Laff feed
+65.6,Busted,1,100,BustedKKPXDT6.us,US - Busted KKPX-DT6 San Francisco CA,US - Busted KKPX-DT6 San Francisco CA,YES,0,Known good,Local San Francisco affiliate
+65.7,GAMESHO,1,100,GameShowCentral.us,US - Game Show Central,US - Game Show Central,,,,
+65.7,GAMESHO,2,88,GameShowNetworkPacific.us,US - Game Show Network West,US - Game Show Network West,,,,
+66.1,KFSF-DT,1,82,UniMasKFSF.us,US - UniMas KFSF San Francisco Oakland Vallejo CA,US - UniMas KFSF San Francisco Oakland Vallejo CA,YES,0,Known good,Local UniMas affiliate
+66.2,KDTV-HD,1,82,UnivisionKDTV.us,US - Univision KDTV San Francisco Oakland Vallejo CA,US - Univision KDTV San Francisco Oakland Vallejo CA,YES,0,Known good,Local Univision simulcast
+66.3,MVSGLD,1,100,MovieSphereGold.us,US - MovieSphere Gold,US - MovieSphere Gold,YES,0,Known good,Schedule verified
+66.4,GRIT,1,100,Grit.us,US - Grit,US - Grit,YES,0,Known good,Schedule verified
+66.5,CRIME,1,100,TrueCrimeNetwork.us,US - True Crime Network,US - True Crime Network,YES,0,Known good,Schedule verified; not Crime + Investigation
+68.1,HEROES,1,100,HeroesAndIconsWest.us,US - Heroes & Icons West,US - Heroes & Icons West,YES,0,Known good,West feed schedule verified
+68.2,MeTV,1,100,MeTVWest.us,US - ME TV West,US - ME TV West,YES,0,Known good,West feed schedule verified
+68.3,STORY,1,100,StoryTelevision.us,US - Story Television,US - Story Television,YES,0,Known good,Schedule verified
+68.4,MeTV+,1,100,MeTV+.us,US - METV Plus,US - METV Plus,YES,0,Known good,National MeTV Plus feed; source timestamps already match live Pacific reception
+68.5,QuestTV,1,88,Quest.us,US - Quest TV,US - Quest TV,,,,
+68.6,TOONS,1,100,MeTvToons.us,US - MeTV Toons,US - MeTV Toons,YES,3,Known good,National MeTV Toons feed shifted three hours later
+68.7,WEST,1,100,WESTNetwork.us,US - WEST Network,US - WEST Network,YES,0,Known good,Exact schedule verified
+106.1,KBKF,1,100,JewelryTelevision.us,US - Jewelry Television,US - Jewelry Television,YES,0,Known good,Correct replacement for the stale 42.2 JTV/FOX KJTV candidate
