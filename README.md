@@ -1,14 +1,14 @@
 # Bay Area OTA EPG Mapping for Jellyfin
 
-This repository builds a smaller XMLTV guide for over-the-air television in
+This repository builds an XMLTV guide for over-the-air television in
 the San Francisco Bay Area and San Jose. It is designed for a Jellyfin server
 using an HDHomeRun tuner.
 
 The HDHomeRun supplies the live channels and television streams directly to
 Jellyfin. Guide listings come separately from the free United States XMLTV
 feed published by [IPTV-EPG.org](https://iptv-epg.org/guides). The filter in
-this repository downloads that large feed, keeps the selected channel IDs,
-applies any required schedule offsets, and creates a compact XMLTV file for
+this repository downloads that large US feed, keeps the selected channel IDs,
+applies any required schedule offsets, then creates a compact XMLTV file for
 Jellyfin.
 
 ```text
