@@ -50,6 +50,7 @@ GuideNumber,GuideName,EpgId,EpgName,Approved,TimeShiftHours,Notes
 54.1,KQED+HD,PBSPlusKQEDDT2.us,US - PBS Plus KQED-DT2 San Francisco San Jose CA,YES,0,Duplicate-tower KQED Plus mapping
 54.2,KQED-HD,PBSKQED.us,US - PBS KQED San Francisco CA,YES,0,Duplicate-tower KQED mapping
 54.3,WORLD,WorldWXXIDT2.us,US - World PBS WXXI-DT2 Rochester NY,YES,0,Same guide as 9.3; duplicate-tower mapping (shares physical channel US35278 on the tuner)
+54.4,KIDS,KidsWXXIDT4.us,US - Kids PBS WXXI-DT4 Rochester NY,YES,3,Same guide as 9.4; duplicate-tower mapping (shares physical channel US34168 on the tuner)
 60.3,PJKNHK,NHKWorld.us,US - NHK World,YES,0,Schedule matches the local NHK World broadcast
 60.4,PJKDW,DWEnglish.us,US - DW English,YES,0,Schedule matches the local Deutsche Welle broadcast
 65.1,ION Television,IONTVPacific.us,US - ION TV West,YES,0,Pacific ION Television feed
