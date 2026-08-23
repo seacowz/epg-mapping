@@ -8,7 +8,7 @@ GuideNumber,GuideName,EpgId,EpgName,Approved,TimeShiftHours,Notes
 4.2,Antenna,AntennaTV.us,US - ANTENNA TV,YES,0,National network
 4.3,Rewind,RewindTV.us,US - Rewind TV,YES,0,National network
 4.4,Roar,RoarPacific.us,US - Roar West,YES,0,West feed
-4.5,DEFY,AandECrime360.us,US - A&E Crime 360,,0,Content does not match live DEFY broadcast (Pawn Stars/Swamp People/Counting Cars/Live PD Presents lineup); no verified match found in the source feed
+4.5,DEFY,AandECrime360.us,US - A&E Crime 360,,0,Content does not match live DEFY broadcast; no verified match found in the source feed
 4.5,DEFY,DefyKPXODT4.us,US - Defy TV KPXO-DT4 Honolulu HI,,0,Unverified candidate; content does not match live DEFY broadcast either
 4.5,DEFY,DEFYWPXNDT4.us,US - DEFY WPXNDT4 NYC NY,,0,Unverified candidate; content does not match live DEFY broadcast either
 4.5,DEFY,DefyTVWPXJDT5.us,US - DefyTV WPXJ-DT5 Buffalo NY,,0,Unverified candidate; content does not match live DEFY broadcast either
@@ -22,7 +22,7 @@ GuideNumber,GuideName,EpgId,EpgName,Approved,TimeShiftHours,Notes
 7.3,Charge!,Charge!.us,US - Charge!,YES,3,National Charge! feed shifted three hours later to match Bay Area broadcast
 9.1,KQED-HD,PBSKQED.us,US - PBS KQED San Francisco CA,YES,0,Local affiliate
 9.2,KQED+HD,PBSPlusKQEDDT2.us,US - PBS Plus KQED-DT2 San Francisco San Jose CA,YES,0,Local affiliate
-9.3,WORLD,WorldWXXIDT2.us,US - World PBS WXXI-DT2 Rochester NY,YES,0,Verified against live tuner schedule; source timestamps already match Bay Area airing, previous +3h shift was incorrect and made the guide run late
+9.3,WORLD,WorldWXXIDT2.us,US - World PBS WXXI-DT2 Rochester NY,YES,0,Verified against live tuner schedule
 9.4,KIDS,KidsWXXIDT4.us,US - Kids PBS WXXI-DT4 Rochester NY,YES,3,PBS Kids schedule shifted three hours later for KQED Kids
 11.1,KNTV HD,NBCKNTV.us,US - NBC KNTV San Francisco Oakland San Jose CA,YES,0,Local affiliate
 11.2,COZI-TV,CoziTVWest.us,US - COZITV WEST,YES,0,COZI West feed matching live Bay Area broadcast
@@ -33,19 +33,19 @@ GuideNumber,GuideName,EpgId,EpgName,Approved,TimeShiftHours,Notes
 14.3,GREAT,GreatEntertainmentTelevision.us,US - Great Entertainment Television,YES,0,Confirmed by logo
 14.4,MYSTERY,IonMystery.us,US - Ion Mystery,YES,0,Confirmed as Ion Mystery
 36.1,KICU-HD,FOXKICU.us,US - FOX KICU KTVU Plus San Francisco Oakland San Jose CA,YES,0,Local KICU/KTVU Plus affiliate
-36.2,KBSA,KBSWorldKBFDDT2.us,US - KBSWorld KBFD-DT2 Honolulu HI,,0,Previous EpgId (KBSAmerica.us) does not exist in the source feed at all, which is why the channel never showed a guide; this candidate is the closest available but actually carries Arirang TV content mislabeled as KBS World, not verified as a match
-36.3,Nosey,NoseyNYC.us,US - NoseyTV,YES,0,Verified against live tuner schedule (Wilkos/Maury/Trisha Goddard/Cutlers Court episodes match exactly); previous Nosey.us candidate did not match at all
+36.2,KBSA,KBSWorldKBFDDT2.us,US - KBSWorld KBFD-DT2 Honolulu HI,,0,This candidate is the closest available but actually carries Arirang TV content mislabeled as KBS World not verified as a match
+36.3,Nosey,NoseyNYC.us,US - NoseyTV,YES,0,Verified against live tuner schedule
 36.4,CATCHY,CatchyKICUDT4.us,US - Catchy Comedy KICU-DT4 San Jose CA,YES,0,Local KICU subchannel
 44.1,KPYX-DT,KPIX+KPYX.us,US - KPIX+ KPYX San Francisco CA,YES,0,Local KPYX KPIX+ affiliate
-44.2,Nest,TheNest.us,US - The Nest,YES,3,Verified against live tuner schedule (Ice Road Truckers/WWE Rivals/Cold Case Files episodes match exactly at +3h); previous 0h shift ran the guide 3 hours early
+44.2,Nest,TheNest.us,US - The Nest,YES,3,Verified against live tuner schedule
 44.3,MeTV,MeTVWest.us,US - ME TV West,YES,0,Confirmed MeTV West feed
 44.4,Confess,ConfessByNosey.us,US - Confess by Nosey,YES,0,Confess by Nosey feed
 48.1,KSTS-HD,TelemundoKSTS.us,US - Telemundo KSTS San Francisco Oakland San Jose CA,YES,0,Same guide as 48.3; duplicate-tower mapping
-48.2,TeleX,TeleXitos.us,US - TeleXitos,YES,3,Same guide as 48.4; duplicate-tower mapping. Verified against live tuner schedule at +3h shift (Caso Cerrado/Acércate a Rocío episodes match exactly); previous 0h shift ran the guide 3 hours early
+48.2,TeleX,TeleXitos.us,US - TeleXitos,YES,3,Same guide as 48.4; duplicate-tower mapping. Verified against live tuner schedule at +3h shift
 48.3,KSTS HD,TelemundoKSTS.us,US - Telemundo KSTS San Francisco Oakland San Jose CA,YES,0,Local Telemundo affiliate
-48.4,TeleX,TeleXitos.us,US - TeleXitos,YES,3,Verified against live tuner schedule at +3h shift (Caso Cerrado/Acércate a Rocío episodes match exactly); previous 0h shift ran the guide 3 hours early
+48.4,TeleX,TeleXitos.us,US - TeleXitos,YES,3,Verified against live tuner schedule at +3h shift
 48.5,True CRMZ,TrueCRMZ.us,US - True CRMZ,YES,0,True CRMZ feed
-48.6,Oxygen True Crime,OxygenTrueCrime.us,US - Oxygen True Crime,YES,3,Verified against live tuner schedule (Real Murders of Atlanta/Dateline episodes match exactly at +3h); previous 0h shift ran the guide 3 hours early
+48.6,Oxygen True Crime,OxygenTrueCrime.us,US - Oxygen True Crime,YES,3,Verified against live tuner schedule
 52.1,KDTS-LD,DAYSTAR.us,US - Daystar,YES,0,Schedule verified
 54.1,KQED+HD,PBSPlusKQEDDT2.us,US - PBS Plus KQED-DT2 San Francisco San Jose CA,YES,0,Duplicate-tower KQED Plus mapping
 54.2,KQED-HD,PBSKQED.us,US - PBS KQED San Francisco CA,YES,0,Duplicate-tower KQED mapping
@@ -69,7 +69,7 @@ GuideNumber,GuideName,EpgId,EpgName,Approved,TimeShiftHours,Notes
 68.2,MeTV,MeTVWest.us,US - ME TV West,YES,0,West feed schedule verified
 68.3,STORY,StoryTelevision.us,US - Story Television,YES,0,Schedule verified
 68.4,MeTV+,MeTV+.us,US - METV Plus,YES,0,National MeTV Plus feed; source timestamps already match live Pacific reception
-68.5,QuestTV,QuestWFAADT4.us,US - Quest WFAA-DT4 Dallas FORT WORTH TX,YES,0,Verified against live tuner schedule (Survivorman/Ghosts Off Grid/Most Daring/Fishing for History match exactly); previous Quest.us candidate was a different network entirely (Criminal Minds/MacGyver/Bones)
+68.5,QuestTV,QuestWFAADT4.us,US - Quest WFAA-DT4 Dallas FORT WORTH TX,YES,0,Verified against live tuner schedule
 68.6,TOONS,MeTvToons.us,US - MeTV Toons,YES,3,National MeTV Toons feed shifted three hours later
 68.7,WEST,WESTNetwork.us,US - WEST Network,YES,0,Exact schedule verified
 106.1,KBKF,JewelryTelevision.us,US - Jewelry Television,YES,0,Correct replacement for the stale 42.2 JTV/FOX KJTV candidate
